@@ -9,3 +9,10 @@ shopping agent.zip
 .env.local
 
 node_modules
+
+python/state/*.json
+python/__pycache__/
+python/**/__pycache__/
+python/.pytest_cache/
+python/**/.pytest_cache/
+*.pyc
