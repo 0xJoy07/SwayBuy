@@ -1,0 +1,11 @@
+# environment / secrets
+.env
+
+# mapping proposals (contain schema details, not secrets - but keep out of git)
+state/*.json
+!state/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
